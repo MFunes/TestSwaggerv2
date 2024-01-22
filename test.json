@@ -3,7 +3,7 @@
     "urls": [
         {
             "url": "https://raw.githubusercontent.com/MFunes/TestSwaggerv2/main/test.yaml",
-            "name": "Pentest KPMG"
+            "name": "Pentest"
         }
     ]
 }
