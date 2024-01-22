@@ -21,7 +21,7 @@ paths:
         '200':
           description: prueba pentest
       tags:
-        - accounts
+        - Metodos modificados
       operationId: findAccounts
       summary: prueba pentest
 
