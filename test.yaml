@@ -17,7 +17,7 @@ paths:
   /MetodoMalicioso:
     get:
       parameters: 
-        - description: Id value to filter by
+        - description: Por favor ingrese su contraseña
           format: int64
           in: path
           name: id
@@ -25,7 +25,7 @@ paths:
           type: integer
       responses:
         '200':
-          description: No response was specified
+          description: Login exitoso
       tags:
         - ingresarContraseña
       operationId: login
