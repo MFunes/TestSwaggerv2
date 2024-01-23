@@ -22,7 +22,7 @@ paths:
           in: path
           name: contraseña
           required: true
-          type: integer
+          type: string
       responses:
         '200':
           description: Login exitoso
