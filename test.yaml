@@ -16,8 +16,8 @@ security:
 paths:
   /MetodoMalicioso:
     get:
-          parameters: 
-           - description: Id value to filter by
+      parameters: 
+        - description: Id value to filter by
           format: int64
           in: path
           name: id
@@ -30,30 +30,3 @@ paths:
         - ingresarContraseña
       operationId: login
       summary: login malicioso
-  '/accounts/groupid/{id}':
-    delete:
-      parameters: 
-        - description: algo
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
-      tags:
-        - accounts
-      operationId: deleteGroupById
-      summary: Deletes a group by id
-    get:
-      parameters:
-        - description: Id value to filter by
-          format: int64
-          in: path
-          name: id
-          required: true
-          type: integer
-      responses:
-        '200':
-          description: No response was specified
