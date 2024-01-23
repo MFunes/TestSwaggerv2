@@ -20,7 +20,7 @@ paths:
         - description: Por favor ingrese su contraseña
           format: int64
           in: path
-          name: id
+          name: contraseña
           required: true
           type: integer
       responses:
