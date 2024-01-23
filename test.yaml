@@ -17,17 +17,7 @@ security:
 paths:
   /metodoMalicioso:
     get:
-      responses:
-        '200':
-          description: prueba pentest
-      tags:
-        - Metodos modificados
-      operationId: findAccounts
-      summary: prueba pentest
-      operationId: deleteGroupById
-      summary: Deletes a group by id
-    get:
-      parameters:
+    parameters:
         - description: Id value to filter by
           format: int64
           in: path
@@ -36,9 +26,10 @@ paths:
           type: integer
       responses:
         '200':
-          description: No response was specified
+          description: prueba pentest
       tags:
-        - accounts
-      operationId: findGroupsById
-      summary: Finds groups by id
+        - Metodos modificados
+      operationId: findAccounts
+      summary: prueba pentest
+      
 
