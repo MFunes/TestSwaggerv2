@@ -16,7 +16,8 @@ security:
 paths:
   /MetodoMalicioso:
     get:
-          parameters: password
+          parameters: 
+           - description: Id value to filter by
           format: int64
           in: path
           name: id
@@ -31,8 +32,8 @@ paths:
       summary: login malicioso
   '/accounts/groupid/{id}':
     delete:
-      parameters: algo
-        - description: 
+      parameters: 
+        - description: algo
           format: int64
           in: path
           name: id
